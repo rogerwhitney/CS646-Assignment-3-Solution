@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface IntegerTextField : UITextField {
+@interface IntegerTextField : UITextField<UITextFieldDelegate> {
     
 }
-
+- (IBAction)textFieldDoneEditing:(id)sender;
+- (void) setInteger: (NSInteger) integerValue;
+- (NSInteger)integer;
 @end

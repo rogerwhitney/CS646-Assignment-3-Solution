@@ -15,7 +15,19 @@
     self = [super initWithCoder:aDecoder];
     self.keyboardType = UIKeyboardTypeNumberPad;
     self.returnKeyType = UIReturnKeyGo;
+  
     return self;
 }
 
+- (IBAction)textFieldDoneEditing:(id)sender {
+    [self resignFirstResponder];
+}
+
+- (void) setInteger: (NSInteger) integerValue {
+    self.text = [NSString stringWithFormat: @"%d", integerValue];
+}
+
+- (NSInteger) integer {
+    return [self.text integerValue];
+}
 @end

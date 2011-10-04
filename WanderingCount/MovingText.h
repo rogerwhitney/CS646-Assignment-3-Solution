@@ -12,5 +12,7 @@
 @interface MovingText : UILabel {
     
 }
+- (void) setInteger: (NSInteger) integerValue;
+- (void) moveByX: (NSInteger) deltaX y: (NSInteger) deltaY;
 
 @end

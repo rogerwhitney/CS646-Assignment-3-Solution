@@ -53,7 +53,8 @@
     
 }
 - (void) updateCountDisplay {
-    countDisplay.text = [NSString stringWithFormat: @"%d", count];
+    [countDisplay setInteger:count];
+    [countDisplay moveByX:[deltaX integer] y:[deltaY integer]];
 }
 
 - (void) saveCount {
