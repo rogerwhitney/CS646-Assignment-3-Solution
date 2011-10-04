@@ -1,0 +1,1 @@
+This is a solution to assignment 3 for CS 646 Fall 2011 at SDSU. There are other possible solutions.

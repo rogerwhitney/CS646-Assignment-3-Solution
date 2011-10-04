@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		813BDE57143AC6A600A015EE /* IntegerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BDE56143AC6A600A015EE /* IntegerTextField.m */; };
+		813BDE62143B972D00A015EE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 813BDE61143B972D00A015EE /* README.txt */; };
 		8181B2AA143AA73200B0C99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2A9143AA73200B0C99E /* UIKit.framework */; };
 		8181B2AC143AA73200B0C99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AB143AA73200B0C99E /* Foundation.framework */; };
 		8181B2AE143AA73200B0C99E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AD143AA73200B0C99E /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		813BDE55143AC6A600A015EE /* IntegerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerTextField.h; sourceTree = "<group>"; };
 		813BDE56143AC6A600A015EE /* IntegerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerTextField.m; sourceTree = "<group>"; };
+		813BDE61143B972D00A015EE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8181B2A5143AA73200B0C99E /* WanderingCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderingCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8181B2A9143AA73200B0C99E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8181B2AB143AA73200B0C99E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		8181B29A143AA73100B0C99E = {
 			isa = PBXGroup;
 			children = (
+				813BDE61143B972D00A015EE /* README.txt */,
 				8181B2AF143AA73200B0C99E /* WanderingCount */,
 				8181B2CF143AA73200B0C99E /* WanderingCountTests */,
 				8181B2A8143AA73200B0C99E /* Frameworks */,
@@ -238,6 +241,7 @@
 				8181B2B4143AA73200B0C99E /* InfoPlist.strings in Resources */,
 				8181B2BD143AA73200B0C99E /* MainWindow.xib in Resources */,
 				8181B2C3143AA73200B0C99E /* WanderingCountViewController.xib in Resources */,
+				813BDE62143B972D00A015EE /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
