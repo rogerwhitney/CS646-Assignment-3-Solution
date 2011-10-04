@@ -13,14 +13,11 @@
 
 -(id) initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
-    self.keyboardType = UIKeyboardTypeNumberPad;
-    self.returnKeyType = UIReturnKeyGo;
-  
+    if (self) {
+        self.keyboardType = UIKeyboardTypeNumberPad;
+        self.returnKeyType = UIReturnKeyGo;
+    }
     return self;
-}
-
-- (IBAction)textFieldDoneEditing:(id)sender {
-    [self resignFirstResponder];
 }
 
 - (void) setInteger: (NSInteger) integerValue {

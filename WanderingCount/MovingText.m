@@ -70,7 +70,6 @@
     self.center = newCenter;
 }
 
-
 - (BOOL) isOffScreenLeft {
     return [self x] >[self maxX];
 }
