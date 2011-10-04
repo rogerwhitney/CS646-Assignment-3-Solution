@@ -18,6 +18,7 @@
     UIView *distancePanel;
     NSInteger count;
 }
+
 @property (nonatomic, retain) IBOutlet IntegerTextField *deltaX;
 @property (nonatomic, retain) IBOutlet IntegerTextField *deltaY;
 @property (nonatomic, retain) IBOutlet MovingText *countDisplay;

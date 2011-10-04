@@ -39,7 +39,6 @@
 {
     [deltaX release];
     [deltaY release];
-
     [countDisplay release];
     [distancePanel release];
     [super dealloc];
@@ -49,9 +48,9 @@
 
 -(void) hideKeyboard {
     [deltaX resignFirstResponder];
-    [deltaY resignFirstResponder];
-    
+    [deltaY resignFirstResponder];    
 }
+
 - (void) updateCountDisplay {
     [countDisplay setInteger:count];
     [countDisplay moveByX:[deltaX integer] y:[deltaY integer]];
@@ -66,14 +65,6 @@
 - (NSInteger) recoverCount {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     return [defaults integerForKey:@"count"];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
@@ -97,9 +88,7 @@
     [self setCountDisplay:nil];
     [self setDistancePanel:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
+  }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
