@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813BDE57143AC6A600A015EE /* IntegerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BDE56143AC6A600A015EE /* IntegerTextField.m */; };
+		8181B2AA143AA73200B0C99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2A9143AA73200B0C99E /* UIKit.framework */; };
+		8181B2AC143AA73200B0C99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AB143AA73200B0C99E /* Foundation.framework */; };
+		8181B2AE143AA73200B0C99E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AD143AA73200B0C99E /* CoreGraphics.framework */; };
+		8181B2B4143AA73200B0C99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8181B2B2143AA73200B0C99E /* InfoPlist.strings */; };
+		8181B2B7143AA73200B0C99E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2B6143AA73200B0C99E /* main.m */; };
+		8181B2BA143AA73200B0C99E /* WanderingCountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2B9143AA73200B0C99E /* WanderingCountAppDelegate.m */; };
+		8181B2BD143AA73200B0C99E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8181B2BB143AA73200B0C99E /* MainWindow.xib */; };
+		8181B2C0143AA73200B0C99E /* WanderingCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2BF143AA73200B0C99E /* WanderingCountViewController.m */; };
+		8181B2C3143AA73200B0C99E /* WanderingCountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8181B2C1143AA73200B0C99E /* WanderingCountViewController.xib */; };
+		8181B2CA143AA73200B0C99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2A9143AA73200B0C99E /* UIKit.framework */; };
+		8181B2CB143AA73200B0C99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AB143AA73200B0C99E /* Foundation.framework */; };
+		8181B2CC143AA73200B0C99E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8181B2AD143AA73200B0C99E /* CoreGraphics.framework */; };
+		8181B2D4143AA73200B0C99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8181B2D2143AA73200B0C99E /* InfoPlist.strings */; };
+		8181B2D7143AA73200B0C99E /* WanderingCountTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8181B2D6143AA73200B0C99E /* WanderingCountTests.h */; };
+		8181B2D9143AA73200B0C99E /* WanderingCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2D8143AA73200B0C99E /* WanderingCountTests.m */; };
+		8181B2E4143AAB7C00B0C99E /* MovingText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2E3143AAB7C00B0C99E /* MovingText.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8181B2CD143AA73200B0C99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8181B29C143AA73100B0C99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8181B2A4143AA73100B0C99E;
+			remoteInfo = WanderingCount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813BDE55143AC6A600A015EE /* IntegerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerTextField.h; sourceTree = "<group>"; };
+		813BDE56143AC6A600A015EE /* IntegerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerTextField.m; sourceTree = "<group>"; };
+		8181B2A5143AA73200B0C99E /* WanderingCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderingCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181B2A9143AA73200B0C99E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8181B2AB143AA73200B0C99E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8181B2AD143AA73200B0C99E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8181B2B1143AA73200B0C99E /* WanderingCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanderingCount-Info.plist"; sourceTree = "<group>"; };
+		8181B2B3143AA73200B0C99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8181B2B5143AA73200B0C99E /* WanderingCount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WanderingCount-Prefix.pch"; sourceTree = "<group>"; };
+		8181B2B6143AA73200B0C99E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8181B2B8143AA73200B0C99E /* WanderingCountAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WanderingCountAppDelegate.h; sourceTree = "<group>"; };
+		8181B2B9143AA73200B0C99E /* WanderingCountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanderingCountAppDelegate.m; sourceTree = "<group>"; };
+		8181B2BC143AA73200B0C99E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8181B2BE143AA73200B0C99E /* WanderingCountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WanderingCountViewController.h; sourceTree = "<group>"; };
+		8181B2BF143AA73200B0C99E /* WanderingCountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanderingCountViewController.m; sourceTree = "<group>"; };
+		8181B2C2143AA73200B0C99E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WanderingCountViewController.xib; sourceTree = "<group>"; };
+		8181B2C9143AA73200B0C99E /* WanderingCountTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderingCountTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181B2D1143AA73200B0C99E /* WanderingCountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanderingCountTests-Info.plist"; sourceTree = "<group>"; };
+		8181B2D3143AA73200B0C99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8181B2D5143AA73200B0C99E /* WanderingCountTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WanderingCountTests-Prefix.pch"; sourceTree = "<group>"; };
+		8181B2D6143AA73200B0C99E /* WanderingCountTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WanderingCountTests.h; sourceTree = "<group>"; };
+		8181B2D8143AA73200B0C99E /* WanderingCountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanderingCountTests.m; sourceTree = "<group>"; };
+		8181B2E2143AAB7C00B0C99E /* MovingText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingText.h; sourceTree = "<group>"; };
+		8181B2E3143AAB7C00B0C99E /* MovingText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingText.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8181B2A2143AA73100B0C99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2AA143AA73200B0C99E /* UIKit.framework in Frameworks */,
+				8181B2AC143AA73200B0C99E /* Foundation.framework in Frameworks */,
+				8181B2AE143AA73200B0C99E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181B2C5143AA73200B0C99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2CA143AA73200B0C99E /* UIKit.framework in Frameworks */,
+				8181B2CB143AA73200B0C99E /* Foundation.framework in Frameworks */,
+				8181B2CC143AA73200B0C99E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8181B29A143AA73100B0C99E = {
+			isa = PBXGroup;
+			children = (
+				8181B2AF143AA73200B0C99E /* WanderingCount */,
+				8181B2CF143AA73200B0C99E /* WanderingCountTests */,
+				8181B2A8143AA73200B0C99E /* Frameworks */,
+				8181B2A6143AA73200B0C99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8181B2A6143AA73200B0C99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2A5143AA73200B0C99E /* WanderingCount.app */,
+				8181B2C9143AA73200B0C99E /* WanderingCountTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8181B2A8143AA73200B0C99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2A9143AA73200B0C99E /* UIKit.framework */,
+				8181B2AB143AA73200B0C99E /* Foundation.framework */,
+				8181B2AD143AA73200B0C99E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8181B2AF143AA73200B0C99E /* WanderingCount */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2B8143AA73200B0C99E /* WanderingCountAppDelegate.h */,
+				8181B2B9143AA73200B0C99E /* WanderingCountAppDelegate.m */,
+				8181B2BB143AA73200B0C99E /* MainWindow.xib */,
+				8181B2BE143AA73200B0C99E /* WanderingCountViewController.h */,
+				8181B2BF143AA73200B0C99E /* WanderingCountViewController.m */,
+				8181B2C1143AA73200B0C99E /* WanderingCountViewController.xib */,
+				8181B2B0143AA73200B0C99E /* Supporting Files */,
+				8181B2E2143AAB7C00B0C99E /* MovingText.h */,
+				8181B2E3143AAB7C00B0C99E /* MovingText.m */,
+				813BDE55143AC6A600A015EE /* IntegerTextField.h */,
+				813BDE56143AC6A600A015EE /* IntegerTextField.m */,
+			);
+			path = WanderingCount;
+			sourceTree = "<group>";
+		};
+		8181B2B0143AA73200B0C99E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2B1143AA73200B0C99E /* WanderingCount-Info.plist */,
+				8181B2B2143AA73200B0C99E /* InfoPlist.strings */,
+				8181B2B5143AA73200B0C99E /* WanderingCount-Prefix.pch */,
+				8181B2B6143AA73200B0C99E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8181B2CF143AA73200B0C99E /* WanderingCountTests */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2D6143AA73200B0C99E /* WanderingCountTests.h */,
+				8181B2D8143AA73200B0C99E /* WanderingCountTests.m */,
+				8181B2D0143AA73200B0C99E /* Supporting Files */,
+			);
+			path = WanderingCountTests;
+			sourceTree = "<group>";
+		};
+		8181B2D0143AA73200B0C99E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8181B2D1143AA73200B0C99E /* WanderingCountTests-Info.plist */,
+				8181B2D2143AA73200B0C99E /* InfoPlist.strings */,
+				8181B2D5143AA73200B0C99E /* WanderingCountTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8181B2A4143AA73100B0C99E /* WanderingCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8181B2DC143AA73200B0C99E /* Build configuration list for PBXNativeTarget "WanderingCount" */;
+			buildPhases = (
+				8181B2A1143AA73100B0C99E /* Sources */,
+				8181B2A2143AA73100B0C99E /* Frameworks */,
+				8181B2A3143AA73100B0C99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanderingCount;
+			productName = WanderingCount;
+			productReference = 8181B2A5143AA73200B0C99E /* WanderingCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8181B2C8143AA73200B0C99E /* WanderingCountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8181B2DF143AA73200B0C99E /* Build configuration list for PBXNativeTarget "WanderingCountTests" */;
+			buildPhases = (
+				8181B2C4143AA73200B0C99E /* Sources */,
+				8181B2C5143AA73200B0C99E /* Frameworks */,
+				8181B2C6143AA73200B0C99E /* Resources */,
+				8181B2C7143AA73200B0C99E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8181B2CE143AA73200B0C99E /* PBXTargetDependency */,
+			);
+			name = WanderingCountTests;
+			productName = WanderingCountTests;
+			productReference = 8181B2C9143AA73200B0C99E /* WanderingCountTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8181B29C143AA73100B0C99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "San Diego State University";
+			};
+			buildConfigurationList = 8181B29F143AA73100B0C99E /* Build configuration list for PBXProject "WanderingCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8181B29A143AA73100B0C99E;
+			productRefGroup = 8181B2A6143AA73200B0C99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8181B2A4143AA73100B0C99E /* WanderingCount */,
+				8181B2C8143AA73200B0C99E /* WanderingCountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8181B2A3143AA73100B0C99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2B4143AA73200B0C99E /* InfoPlist.strings in Resources */,
+				8181B2BD143AA73200B0C99E /* MainWindow.xib in Resources */,
+				8181B2C3143AA73200B0C99E /* WanderingCountViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181B2C6143AA73200B0C99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2D4143AA73200B0C99E /* InfoPlist.strings in Resources */,
+				8181B2D7143AA73200B0C99E /* WanderingCountTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8181B2C7143AA73200B0C99E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8181B2A1143AA73100B0C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2B7143AA73200B0C99E /* main.m in Sources */,
+				8181B2BA143AA73200B0C99E /* WanderingCountAppDelegate.m in Sources */,
+				8181B2C0143AA73200B0C99E /* WanderingCountViewController.m in Sources */,
+				8181B2E4143AAB7C00B0C99E /* MovingText.m in Sources */,
+				813BDE57143AC6A600A015EE /* IntegerTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8181B2C4143AA73200B0C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8181B2D9143AA73200B0C99E /* WanderingCountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8181B2CE143AA73200B0C99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8181B2A4143AA73100B0C99E /* WanderingCount */;
+			targetProxy = 8181B2CD143AA73200B0C99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8181B2B2143AA73200B0C99E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8181B2B3143AA73200B0C99E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8181B2BB143AA73200B0C99E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8181B2BC143AA73200B0C99E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8181B2C1143AA73200B0C99E /* WanderingCountViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8181B2C2143AA73200B0C99E /* en */,
+			);
+			name = WanderingCountViewController.xib;
+			sourceTree = "<group>";
+		};
+		8181B2D2143AA73200B0C99E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8181B2D3143AA73200B0C99E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8181B2DA143AA73200B0C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8181B2DB143AA73200B0C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8181B2DD143AA73200B0C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanderingCount/WanderingCount-Prefix.pch";
+				INFOPLIST_FILE = "WanderingCount/WanderingCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8181B2DE143AA73200B0C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanderingCount/WanderingCount-Prefix.pch";
+				INFOPLIST_FILE = "WanderingCount/WanderingCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8181B2E0143AA73200B0C99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WanderingCount.app/WanderingCount";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanderingCountTests/WanderingCountTests-Prefix.pch";
+				INFOPLIST_FILE = "WanderingCountTests/WanderingCountTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8181B2E1143AA73200B0C99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WanderingCount.app/WanderingCount";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanderingCountTests/WanderingCountTests-Prefix.pch";
+				INFOPLIST_FILE = "WanderingCountTests/WanderingCountTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8181B29F143AA73100B0C99E /* Build configuration list for PBXProject "WanderingCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181B2DA143AA73200B0C99E /* Debug */,
+				8181B2DB143AA73200B0C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8181B2DC143AA73200B0C99E /* Build configuration list for PBXNativeTarget "WanderingCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181B2DD143AA73200B0C99E /* Debug */,
+				8181B2DE143AA73200B0C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8181B2DF143AA73200B0C99E /* Build configuration list for PBXNativeTarget "WanderingCountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8181B2E0143AA73200B0C99E /* Debug */,
+				8181B2E1143AA73200B0C99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8181B29C143AA73100B0C99E /* Project object */;
+}

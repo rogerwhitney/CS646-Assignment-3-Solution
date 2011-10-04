@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WanderingCountTests' target in the 'WanderingCountTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
